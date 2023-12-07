@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CenterMangement.Helpers\CenterMangement.Helpers.csproj" />
+    <ProjectReference Include="..\CenterMangement.Repository\CenterMangement.Repository.csproj" />
+    <ProjectReference Include="..\CenterMangement.Service\CenterMangement.Service.csproj" />
+  </ItemGroup>
+
+</Project>
